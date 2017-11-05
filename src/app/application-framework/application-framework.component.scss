@@ -1,0 +1,26 @@
+.v-framework {
+  margin: 0px;
+  padding: 0px;
+
+  height: 400px;
+}
+
+#v-framework-canvas-container {
+  background-color: #808080;
+  width: 800px;
+  border:1px dotted black;
+}
+
+#v-framework-linecounter {
+  background-color: #574646;
+  float:left;
+  border: 0px;
+  width: 40px;
+}
+
+#v-framework-codemode-canvas {
+  background-color: #ff6a00;
+  float:left;
+  border: 0px;
+  width: 760px;
+}
