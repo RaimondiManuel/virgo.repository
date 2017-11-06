@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { ApplicationIdStrings } from '../application-id-strings';
-import { ApplicationClassStrings } from '../application-class-strings';
-import { ApplicationNameStrings } from '../application-name-strings';
+import { ApplicationIdStrings } from '../helpers/helper-models/application-id-strings';
+import { ApplicationClassStrings } from '../helpers/helper-models/application-class-strings';
+import { ApplicationNameStrings } from '../helpers/helper-models/application-name-strings';
 
 @Component( {
   selector: 'V-application-framework',
-  templateUrl: './application-framework.component.html',
-  styleUrls: ['./application-framework.component.scss']
+  templateUrl: '../component-templates/application-framework.component.html',
+  styleUrls: ['../component-styles/application-framework.component.scss']
 })
+
 export class ApplicationFrameworkComponent implements OnInit
 {
   // #region View model private fields.
