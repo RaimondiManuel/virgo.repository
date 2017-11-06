@@ -1,6 +1,6 @@
-# VirgoClientsideApplication
+# Virgo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
+Virgo is an online code editor, with addintional feature like: Query over HTML element, CSS formatting, organizing, exporting, importing.
 
 ## Development server
 
